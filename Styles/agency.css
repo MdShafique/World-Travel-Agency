@@ -1,0 +1,245 @@
+*{
+    font-family: "Open Sans", sans-serif;
+}
+.special-color{
+    color: #FF5400;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.left-nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.right-nav{}
+.right-nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+.right-nav li{
+    padding-left: 15px;
+    list-style: none;
+}
+.right-nav a{
+    text-decoration: none;
+}
+.bg-section{
+    margin-top: 30px;
+    text-align: center;
+    background-image: url(../Images/Group\ 13.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.bg-text-area{
+    padding-top: 155px;
+    color: white;
+}
+.tour-area{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.left-tour-area{
+    width: 50%;
+}
+.destination-area{
+   margin-top: 70px;
+}
+.tour-area{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.left-tour-area{
+    width: 50%;
+}
+.destination-area{
+    margin-top: 70px;
+ }
+ .bg-destination-area{}
+ 
+ .destination-text-area{
+     text-align: center;
+     margin-bottom: 80px;
+ }
+ .top-destination-area{
+     display: flex;
+     justify-content: space-around;
+     margin-bottom: 30px;
+ }
+ .middle-destination-area{
+     display: flex;
+     justify-content: space-around;
+     margin-bottom: 30px;
+ }
+ .down-destination-area{
+     display: flex;
+     justify-content: space-around;
+ }
+ .first-top{
+     background-image: url(../Images/Rectangle\ 5.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 48%;
+     height: 300px;
+     border-radius: 15px;
+     text-align: center;
+     color: white;
+ }
+ .second-top{
+     background-image: url(../Images/Rectangle\ 8.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 48%;
+     height: 300px;
+     border-radius: 15px;
+     text-align: center;
+     color: white;
+ }
+ .first-middle{
+     background-image: url(../Images/Rectangle\ 6.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 31%;
+     height: 300px;
+     border-radius: 15px;
+     text-align: center;
+     color: white;
+ }
+ .second-middle{
+     background-image: url(../Images/Rectangle\ 7.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 31%;
+     height: 300px;
+     border-radius: 15px;
+     text-align: center;
+     color: white;
+ }
+ .third-middle{
+     background-image: url(../Images/Rectangle\ 9.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 31%;
+     height: 300px;
+     border-radius: 15px;
+     text-align: center;
+     color: white;
+ }
+ .first-down{
+     background-image: url(../Images/Rectangle\ 11.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 48%;
+     height: 300px;
+     border-radius: 15px;
+     text-align: center;
+     color: white;
+ }
+ .second-down{
+     background-image: url(../Images/Rectangle\ 10.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     width: 48%;
+     height: 300px;
+     border-radius: 15px;
+     text-align: center;
+     color: white;
+ }
+ .bg-destination-area h1{
+     padding-top: 110px;
+ }
+ .choose-area{
+    margin-top: 100px;
+ }
+ .top-choose{
+    margin-bottom: 100px;
+    text-align: center;
+ }
+ .down-choose{
+    display: flex;
+    justify-content: space-around;
+ }
+ .left-down-choose{
+    background-color: #FBB563;
+    border-radius: 10px;
+ }
+ .right-down-choose{
+    margin-left: 20px;
+    background-color: #29CEF6;
+    border-radius: 10px;
+ }
+ .end-choose{
+    height: 300px;
+    margin-top: 20px;
+    background-color: #E94444;
+    border-radius: 10px;
+ }
+ .video-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+ }
+ .left-video-section{
+    width: 45%;
+ }
+ .right-video-section iframe{
+    border-radius: 10px;
+ }
+ .newsletter-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+ }
+ .left-newsletter{
+    width: 50%;
+ }
+ .right-newsletter{
+    width: 50%;
+    height: 350px;
+    background-image: url(../Images/Rectangle\ 8\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+ .save-up-area{
+    width: 25%;
+    background-color: #FF5400;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top:200px;
+    left: 550px;
+    transform: rotate(-30deg);
+ }
+ .top-footer{
+    margin-top: 150px;
+    border-bottom: 1px solid gray;
+ }
+ .first-footer{
+    display: flex;
+    justify-content: center;
+ }
+ .footer-icon-area{
+    text-align: center;
+ }
+ .top-footer p{
+    text-align: center;
+ }
+ .center-area{
+    text-align: center;
+ }
