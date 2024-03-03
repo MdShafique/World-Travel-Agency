@@ -238,6 +238,25 @@ button{
  .right-video-section iframe{
     border-radius: 10px;
  }
+ .all-blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:10px;
+ }
+ .blog{
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 5px 10px 15px;
+ }
+ .blog-post{
+    margin-top: 100px;
+ }
+ .all-blog img{
+    width: 450px;
+    height: 500px;
+    border-radius: 15px;
+ }
  .newsletter-section{
     margin-top: 100px;
     display: flex;
@@ -319,5 +338,9 @@ button{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap:10px;
+    }
+    .blog-post, .blog-header, .all-blog{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
     }
  }
