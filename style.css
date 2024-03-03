@@ -56,13 +56,28 @@ nav{
     font-weight: bold;
 }
 .search-area{
-    border: 1px solid grey;
-    background-color: beige;
-    height: 50px;
+    /* border: 1px solid grey;
+    background-color: bisque;
+    height: 60px;
+    border-radius: 10px; */
    
 }
 .search-area form{
-    padding: 10px;
+    padding: 12px;
+}
+button{
+    background-color: #FF5400;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+}
+#place{
+    /* border: none;
+    border-radius: 5px;
+    padding: 6px;
+    background-color: white;
+    margin-left: 5px; */
 }
 .tour-area{
     display: flex;
@@ -281,5 +296,28 @@ nav{
     .search-area form{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
+    }
+    .tour-area{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:5px;
+        width: 100%;
+    }
+    .destination-area, .top-destination-area, .middle-destination-area, .down-destination-area{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:10px;
+        background-position: center;
+        background-size: cover;
+    }
+    .choose-area, .top-choose, .down-choose{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:10px;
+    }
+    .video-section, .newsletter-section{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:10px;
     }
  }
